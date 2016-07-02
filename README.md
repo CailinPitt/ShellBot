@@ -12,9 +12,20 @@ Uses the [slack-ruby-gem](https://github.com/dblock/slack-ruby-bot).
 * [Register bot with Slack](https://github.com/dblock/slack-ruby-bot/blob/master/DEPLOYMENT.md)
 * Run `SLACK_API_TOKEN=... bundle exec ruby shellbot.rb`
 
+# Examples
+### ping
+![ping](https://raw.githubusercontent.com/CailinPitt/ShellBot/master/images/ping.PNG)
+
+### git
+![git](https://raw.githubusercontent.com/CailinPitt/ShellBot/master/images/git.PNG)
+
+### cat
+![cat](https://raw.githubusercontent.com/CailinPitt/ShellBot/master/images/cat.PNG)
+
+
 # TODO
 
-* Bot is pretty basic right now, and can only execute one word commands (such as `date`, `ls`, `pwd`). Need to update so it can execute more complicated commands (like `git pull origin master`, `cd ../this/is/a/really/long/directory`, `ping www.google.com`).
+* Want Bot to me able to change directories `cd ../this/is/a/cool/bot`).
 
 ---
 
