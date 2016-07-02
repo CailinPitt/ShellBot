@@ -36,7 +36,7 @@ Uses the [slack-ruby-gem](https://github.com/dblock/slack-ruby-bot).
 
 # TODO
 
-* Want Bot to me able to change directories `cd ../this/is/a/cool/bot`).
+* Want Bot to be able to change directories `cd ../this/is/a/cool/bot`).
 * Only allow certain users to be able to use bot
 
 ---
