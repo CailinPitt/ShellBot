@@ -41,7 +41,6 @@ Uses the [slack-ruby-gem](https://github.com/dblock/slack-ruby-bot).
 ![ddate](https://raw.githubusercontent.com/CailinPitt/ShellBot/master/images/ddate.PNG)
 
 # TODO
-
 * Need bot to be able to end processes
 * Only allow certain users to be able to use bot
 
