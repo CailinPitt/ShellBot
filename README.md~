@@ -2,8 +2,6 @@
 
 A Slack bot that can run on a Raspberry Pi and execute shell commands.
 
-![Interaction](https://raw.githubusercontent.com/CailinPitt/ShellBot/master/images/basic.PNG)
-
 Uses the [slack-ruby-gem](https://github.com/dblock/slack-ruby-bot).
 
 # How to run
@@ -24,10 +22,22 @@ Uses the [slack-ruby-gem](https://github.com/dblock/slack-ruby-bot).
 ### cat
 ![cat](https://raw.githubusercontent.com/CailinPitt/ShellBot/master/images/cat.PNG)
 
+### pwd
+![pwd](https://raw.githubusercontent.com/CailinPitt/ShellBot/master/images/pwd.PNG)
+
+### date
+![date](https://raw.githubusercontent.com/CailinPitt/ShellBot/master/images/date.PNG)
+
+### echo
+![echo](https://raw.githubusercontent.com/CailinPitt/ShellBot/master/images/echo.PNG)
+
+### mkdir
+![mkdir](https://raw.githubusercontent.com/CailinPitt/ShellBot/master/images/mkdir.PNG)
 
 # TODO
 
 * Want Bot to me able to change directories `cd ../this/is/a/cool/bot`).
+* Only allow certain users to be able to use bot
 
 ---
 

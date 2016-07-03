@@ -34,9 +34,15 @@ Uses the [slack-ruby-gem](https://github.com/dblock/slack-ruby-bot).
 ### mkdir
 ![mkdir](https://raw.githubusercontent.com/CailinPitt/ShellBot/master/images/mkdir.PNG)
 
+### cd
+![cd](https://raw.githubusercontent.com/CailinPitt/ShellBot/master/images/cd.PNG)
+
+### ddate
+![ddate](https://raw.githubusercontent.com/CailinPitt/ShellBot/master/images/ddate.PNG)
+
 # TODO
 
-* Want Bot to me able to change directories `cd ../this/is/a/cool/bot`).
+* Need bot to be able to end processes
 * Only allow certain users to be able to use bot
 
 ---

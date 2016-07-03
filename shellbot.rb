@@ -12,10 +12,15 @@ class ShellBot < SlackRubyBot::Bot
 			cmd = cmd.gsub(/\<(.*)\>/, url) # Replace URL in command
 		end
 		
-    Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
-			while line = stdout.gets
-				client.say(channel: data.channel, text: line)
-				# Stream command output back to Slack user
+		if cmd.include? "cd"
+			Dir.chdir(cmd.split(' ', 2)[1]) # Use different command to change directory
+		
+		else
+		  Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
+				while line = stdout.gets
+					client.say(channel: data.channel, text: line)
+					# Stream command output back to Slack user
+				end
 			end
 		end
   end
